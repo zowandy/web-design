@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai2.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "card"> 
+            <h1 class="title">BANG DIEM CUA EM</h1>
+            <div class ="text">
+                <label>Semester1:</label>
+                <input type = "text" id = "score1">
+            </div>
+            <div class ="text">
+                <label>Semester2:</label>
+                <input type = "text" id = "score2">
+            </div>
+            <div class ="text">
+                <label>Year: </label>
+                <select id="gender">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <div class ="text">
+                <label>Summarise: </label>
+                <input type="text" id="avg" readonly>
+            </div>
+            <p id="display"></p>
+            <div class = "actions">
+                <button onclick = "sum()" >Ok</button>
+                <button onclick = "cancel()">Cancel</button>
+            </div>
+        </div>
+    </div>
+<script src="bai2.js"></script>
+</body>
+</html>
